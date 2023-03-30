@@ -1,7 +1,8 @@
 <?php
 
-use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,6 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/users', function () {
     return view('users.index');
 })->name('users.home');
@@ -25,12 +27,14 @@ Route::get('/users', function () {
 Route::get('/user/{id}', [UserController::class,'show'])->name('users.details');
 Route::get('/user/{id}/edit', [UserController::class,'edit'])->name('users.edit');
 
-Route::middleware([
+Route::prefix('/dashboard')->middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
     'verified'
 ])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
+    Route::get('/', [DashboardController::class,'index'])->name('dashboard.index');
+    Route::get('/category', [DashboardController::class,'category'])->name('dashboard.category');
+    Route::get('/product', [DashboardController::class,'product'])->name('dashboard.product');
+    Route::get('/user', [DashboardController::class,'user'])->name('dashboard.user');
+    Route::get('/user/id/edit', [DashboardController::class,'edit_user'])->name('dashboard.edit_user');
 });
