@@ -38,3 +38,5 @@ Route::prefix('/dashboard')->middleware([
     Route::get('/user', [DashboardController::class,'user'])->name('dashboard.user');
     Route::get('/user/id/edit', [DashboardController::class,'edit_user'])->name('dashboard.edit_user');
 });
+Route::get('/logout', [DashboardController::class,'index'])->name('logout')->middleware(['auth:sanctum', config('jetstream.auth_session'),
+'verified']);
