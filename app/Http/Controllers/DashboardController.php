@@ -16,8 +16,17 @@ class DashboardController extends Controller
         return view('pages.dashboard.category.index');
     }
 
+    public function category_edit($id){
+        $category_edit = Category::findOrFail($id);
+        return view('pages.dashboard.category.edit',compact('category_edit'));
+    }
     public function product(){
         return view('pages.dashboard.product.index');
+    }
+
+    public function product_edit($id){
+        $product_edit = Product::findOrFail($id);
+        return view('pages.dashboard.product.edit');
     }
 
     public function user(){

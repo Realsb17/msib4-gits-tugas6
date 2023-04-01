@@ -13,7 +13,10 @@ Category
         <div class="col-md-8">
             @livewire('category-form')
         </div>
-
+        <div class="card">
+            <div class="card-body">
+                @livewire('category-table')
+            </div>
     </div>
 @endsection
 
