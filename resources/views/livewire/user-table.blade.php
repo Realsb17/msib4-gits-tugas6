@@ -18,7 +18,7 @@
                 <td>
                     <a href="{{ route('users.details', $item->id) }}" class="btn btn-primary">Detail</a>
                     <a href="{{ route('users.edit', $item->id) }}" class="btn btn-warning">Edit</a>
-                    <button wire::click="delete({{ $item->id }})" class="btn btn-danger">Delete</button>
+                    <button wire:click="delete({{ $item->id }})" class="btn btn-danger">Delete</button>
                 </td>
             </tr>
             @endforeach

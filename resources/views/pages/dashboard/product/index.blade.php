@@ -8,7 +8,13 @@ Product
 @endpush
 
 @section('content')
-<h1></h1>
+<h1 class="mb-5">Product</h1>
+    <div class="row mb-4">
+        <div class="col-md-8">
+            @livewire('product-form')
+        </div>
+
+    </div>
 @endsection
 
 @push('before-script')

@@ -5,20 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@yield('title') | {{ config('app.name') }}</title>
 
     @stack('before-style')
-    <title>@yield('title') | {{ config('app.name') }}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <style>
         body {
-            background: #eefcff;
+            background: #ebf1f3;
         }
 
         #side_nav {
-            background: #295a4f;
+            background: #24312c;
             min-width: 225px;
             max-width: 225px;
             transition: all 0.3s;
@@ -34,7 +34,7 @@
         }
 
         .sidebar li.active {
-            background: #a8cebf;
+            background: #69aa90;
             border-radius: 8px;
         }
 
