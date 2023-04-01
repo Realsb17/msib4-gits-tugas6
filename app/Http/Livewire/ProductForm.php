@@ -42,5 +42,6 @@ class ProductForm extends Component
         $this->description = NULL;
         $this->price = NULL;
         $this->photo = NULL;
+        $this->emit('ProductCreate');
     }
 }

@@ -34,6 +34,7 @@ class CategoryForm extends Component
         $this->name = NULL;
         $this->description = NULL;
         $this->icon = NULL;
+        $this->emit('CategoryCreate');
     }
 
 
