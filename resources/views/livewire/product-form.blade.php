@@ -3,7 +3,7 @@
         <div class="card-header">Form</div>
         <div class="card-body">
             <form wire:submit.prevent="store">
-                <div class="mb-3">
+                <div class="mb-2">
                     <label for="categoriesid" class="form-label">Choose Category</label>
                     <select id="categories_id" wire:model="categories_id" class="form-select mb-3">
                         <option hidden>Choose one category</option>
