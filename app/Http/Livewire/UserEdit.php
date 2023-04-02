@@ -13,7 +13,7 @@ class UserEdit extends Component
 
     public function mount($user)
     {
-        $this->user_id = $user->id;
+    $this->user_id = $user->id;
        $this->name = $user->name;
        $this->email = $user->email;
     }
@@ -35,6 +35,6 @@ class UserEdit extends Component
         $this->name = NULL;
         $this->email = NULL;
 
-        redirect()->route('users.home')->with('success','User Berhasil di Update');
+        redirect()->route('dashboard.user')->with('success','User Berhasil di Update');
     }
 }

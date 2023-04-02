@@ -16,8 +16,7 @@
                 <td>{{ $item->name }}</td>
                 <td>{{ $item->email }}</td>
                 <td>
-                    <a href="{{ route('users.details', $item->id) }}" class="btn btn-primary">Detail</a>
-                    <a href="{{ route('users.edit', $item->id) }}" class="btn btn-warning">Edit</a>
+                    <a href="{{ route('dashboard.edit_user', $item->id) }}" class="btn btn-warning">Edit</a>
                     <button wire:click="delete({{ $item->id }})" class="btn btn-danger">Delete</button>
                 </td>
             </tr>
