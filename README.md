@@ -19,5 +19,6 @@
 <li> Email  : Billa@gmail.com </li>
 <li> Password : billa12345 </li>
 
-## 🎯 Installation
+## 📖 How To Use
+<li> Copy Link Repository </li>
 
