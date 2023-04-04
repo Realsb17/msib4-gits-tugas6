@@ -24,17 +24,17 @@
 <code>git clone https://github.com/Realsb17/msib4-gits-tugas6.git</code>
 
 ### To run this project clone this repo first
-<li> Copy paste <b>.env.example</b> file and rename as <b>.env</b> </li>
-<li> Customize your database configuration in <b>.env</b> file </li>
+<li> Copy paste <b>.env.example</b> file and rename as <b>.env</b> </li><br>
+<li> Customize your database configuration in <b>.env</b> file </li><br>
 <li>Generate Key</li>
-<code> php artisan key:generate </code>
+<code> php artisan key:generate </code><br>
 <li> Install dependencies </li>
-<code> composer install </code>
+<code> composer install </code><br>
 <li> Generate mirror link </li>
-<code> php artisan storage:link </code>
+<code> php artisan storage:link </code><br>
 <li> tables Migrate </li>
-<code> php artisan migrate </code>
+<code> php artisan migrate </code><br>
 <li> Insert the data from seeder to database </li>
-<code> php artisan db:seed </code>
-<li> Start the server </li
+<code> php artisan db:seed </code><br>
+<li> Start the server </li>
 <code> php artisan serve </code>
