@@ -24,4 +24,7 @@
 <code>git clone https://github.com/Realsb17/msib4-gits-tugas6.git</code>
 
 ### To run this project clone this repo first
-
+<li> Copy paste <b>.env.example</b> file and rename as <b>.env</b> </li>
+<li> Customize your database configuration in <b>.env</b> file </li>
+<li>Generate Key</li>
+<code>php artisan key:generate</code>
