@@ -4,12 +4,18 @@
 
 ## 👩 Creator
 
-<p>Name    : Salsabila</p>
-<p>Campus  : Institut Teknologi Bisnis AAS Indonesia</p>
+<li>Name    : Salsabila</li>
+<li>Campus  : Institut Teknologi Bisnis AAS Indonesia</li>
 
-## Laravel Sponsors
+## ⚙ Technology Used
+<li> Laravel 9 </li>
+<li> Livewire </li>
+<li> FontAwasome </li>
+<li> CSS </li>
+<li> Bootstrap </li>
+<li> Jestream </li>
 
-### Premium Partners
+## Premium Partners
 
 ## Contributing
 
