@@ -3,9 +3,9 @@
         <div class="card-header">Form</div>
         <div class="card-body">
             <form wire:submit.prevent="store">
-                <div class="mb-2">
+                <div class="mb-1">
                     <label for="categoriesid" class="form-label">Choose Category</label>
-                    <select id="categories_id" wire:model="categories_id" class="form-select mb-3">
+                    <select id="categories_id" wire:model="categories_id" class="form-select mb-1">
                         <option hidden>Choose one category</option>
                         @foreach ($categories as $category)
                             <option value="{{ $category->id }}">{{ $category->name }}</option>
@@ -13,7 +13,7 @@
                     </select>
                 </div>
 
-                <div class="mb-3">
+                <div class="mb-1">
                     <label for="name" class="form-label">Product Name</label>
                     <input type="text" class="form-control @error('name') is-invalid @enderror" wire:model="name">
                     @error('name')
@@ -23,7 +23,7 @@
                         </div>
                     @enderror
                 </div>
-                <div class="mb-3">
+                <div class="mb-1">
                     <label for="description" class="form-label">Product Description</label>
                     <input type="text" class="form-control @error('description') is-invalid @enderror" wire:model="description">
                     @error('description')
@@ -33,7 +33,7 @@
                         </div>
                     @enderror
                 </div>
-                <div class="mb-3">
+                <div class="mb-1">
                     <label for="price" class="form-label">Price</label>
                     <input type="number" class="form-control @error('price') is-invalid @enderror" wire:model="price">
                     @error('price')
@@ -43,7 +43,7 @@
                         </div>
                     @enderror
                 </div>
-                <div class="mb-3">
+                <div class="mb-2">
                     <label for="photo" class="form-label">Photo</label>
                     <input type="file" class="form-control @error('photo') is-invalid @enderror" wire:model="photo">
                     @error('photo')

@@ -1,4 +1,5 @@
-<div class="card">
+<div>
+    <div class="card">
     @include('my_components.alert_success')
     <div class="card-body">
         <table class="table table-responsive">
@@ -19,7 +20,7 @@
                     <td>{{ $item->description }}</td>
                     <td><img src="{{ asset('storage/'.$item->icon) }}" class="img-thumbnail rounded-top" style="width:100px" alt=""></td>
                     <td>
-                        <a href="#" class="btn btn-primary">Detail</a>
+
                         <a href="{{ route('dashboard.category_edit',$item->id) }}" class="btn btn-warning">Edit</a>
                         <button wire:click="delete({{ $item->id }})" class="btn btn-danger">Delete</button>
                     </td>

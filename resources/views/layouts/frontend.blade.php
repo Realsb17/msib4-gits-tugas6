@@ -31,7 +31,7 @@
                 <a class="nav-link" aria-current="page" href="{{ route('category') }}">Categories</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="{{ route('product') }}"> Products</a>
+                <a class="nav-link" aria-current="page" href="{{ route('product') }}"> Products</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="{{ route('cart') }}"><i class="fa-solid me-2 fa-cart-shopping"></i>Cart</a>

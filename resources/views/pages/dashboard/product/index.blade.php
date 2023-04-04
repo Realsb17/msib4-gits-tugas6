@@ -15,7 +15,7 @@ Product
             @livewire('product-form')
         </div>
     </div>
-    <div class="card">
+    <div class="card mt-4">
         <div class="card-body">
             @livewire('product-table')
         </div>
