@@ -15,7 +15,9 @@
 <li> Bootstrap </li>
 <li> Jestream </li>
 
-## Premium Partners
+## 🔐 Login
+<li> Email  : Billa@gmail.com </li>
+<li> Password : billa12345 </li>
 
-## Contributing
+## 🎯 Installation
 
