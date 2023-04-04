@@ -22,7 +22,7 @@
                         <td><img src="{{ asset('storage/'.$item->photo) }}" class="img-thumbnail rounded-top" style="width:100px" alt=""></td>
                         <td>{{ $item->price }}</td>
                         <td>
-                            <a href="#" class="btn btn-primary">Detail</a>
+
                             <a href="{{ route('dashboard.product_edit',$item->id) }}" class="btn btn-warning">Edit</a>
                             <button wire:click="delete({{ $item->id }})" class="btn btn-danger">Delete</button>
                         </td>

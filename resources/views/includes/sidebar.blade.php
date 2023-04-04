@@ -37,19 +37,4 @@
 
     <hr class="h-color mx-2">
 
-    <ul class="list-unstyled px-2">
-        <li class="">
-            <a href="#" class="text-decoration-none px-3 py-2 d-block">
-                <i class="fal fa-bars"></i>
-                Settings
-            </a>
-        </li>
-
-        <li class="">
-            <a href="#" class="text-decoration-none px-3 py-2 d-block">
-                <i class="fas fa-sharp fa-regular fa-bell"></i>
-                Notifications
-            </a>
-        </li>
-    </ul>
 </div>

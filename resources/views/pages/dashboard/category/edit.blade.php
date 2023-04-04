@@ -8,6 +8,7 @@
 
 
 @section('content')
+<h1 class="mb-3">Category</h1>
     <div class="container">
         <div class="mb-4">
             <a href="{{ route('dashboard.category') }}" class="btn btn-primary">Back</a>

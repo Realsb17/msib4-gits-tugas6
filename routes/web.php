@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\LandingController;
 use App\Http\Controllers\DashboardController;
 
 /*
@@ -15,9 +16,11 @@ use App\Http\Controllers\DashboardController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/', [LandingController::class,'index'])->name('index');
+Route::get('/category', [LandingController::class,'category'])->name('category');
+Route::get('/product', [LandingController::class,'product'])->name('product');
+Route::get('/cart', [LandingController::class,'cart'])->name('cart');
 
 Route::prefix('/dashboard')->middleware([
     'auth:sanctum',
