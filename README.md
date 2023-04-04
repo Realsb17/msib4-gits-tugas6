@@ -21,4 +21,5 @@
 
 ## 📖 How To Use
 <li> Copy Link Repository </li>
+<code>git clone https://github.com/Realsb17/msib4-gits-tugas6.git</code>
 
