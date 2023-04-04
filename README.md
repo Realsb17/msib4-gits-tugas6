@@ -20,11 +20,21 @@
 <li> Password : billa12345 </li>
 
 ## 📖 How To Use
-<li> Copy Link Repository </li>
+<li> Copy This Repository </li>
 <code>git clone https://github.com/Realsb17/msib4-gits-tugas6.git</code>
 
 ### To run this project clone this repo first
 <li> Copy paste <b>.env.example</b> file and rename as <b>.env</b> </li>
 <li> Customize your database configuration in <b>.env</b> file </li>
 <li>Generate Key</li>
-<code>php artisan key:generate</code>
+<code> php artisan key:generate </code>
+<li> Install dependencies </li>
+<code> composer install </code>
+<li> Generate mirror link </li>
+<code> php artisan storage:link </code>
+<li> tables Migrate </li>
+<code> php artisan migrate </code>
+<li> Insert the data from seeder to database </li>
+<code> php artisan db:seed </code>
+<li> Start the server </li
+<code> php artisan serve </code>
