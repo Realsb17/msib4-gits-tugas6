@@ -3,8 +3,8 @@
 ## TUGAS 6 Content Management System (CMS)
 
 ##👩 Creator
-Name    : Salsabila
-Campus  : Institut Teknologi Bisnis AAS Indonesia
+<p>Name    : Salsabila</p>
+<p>Campus  : Institut Teknologi Bisnis AAS Indonesia</p>
 ## Laravel Sponsors
 
 ### Premium Partners
