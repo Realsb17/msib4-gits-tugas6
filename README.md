@@ -38,8 +38,5 @@
 <li> tables Migrate </li>
 <code> php artisan migrate </code>
 <p></p>
-<li> Insert the data from seeder to database </li>
-<code> php artisan db:seed </code>
-<p></p>
 <li> Start the server </li>
 <code> php artisan serve </code>
