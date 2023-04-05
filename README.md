@@ -15,10 +15,6 @@
 <li> Bootstrap </li>
 <li> Jestream </li>
 
-## 🔐 Login
-<li> Email  : Billa@gmail.com </li>
-<li> Password : billa12345 </li>
-
 ## 📖 How To Use
 <li> Copy This Repository </li>
 <code>git clone https://github.com/Realsb17/msib4-gits-tugas6.git</code>
@@ -26,11 +22,12 @@
 ### To run this project clone this repo first
 <li> Copy paste <b>.env.example</b> file and rename as <b>.env</b> </li><br>
 <li> Customize your database configuration in <b>.env</b> file </li><br>
-<li>Generate Key</li>
-<code> php artisan key:generate </code>
-<p></p>
+
 <li> Install dependencies </li>
 <code> composer install </code>
+<p></p>
+<li>Generate Key</li>
+<code> php artisan key:generate </code>
 <p></p>
 <li> Generate mirror link </li>
 <code> php artisan storage:link </code>
